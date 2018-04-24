@@ -2,7 +2,7 @@
 from kombu import Connection, Exchange, Consumer, Queue
 
 
-rabbit_url = "amqp://amin:pass@ip:5672//"
+rabbit_url = "amqp://chungpht:123456@10.5.9.177:5672//"
 conn = Connection(rabbit_url)
 exchange = Exchange("test", type="direct" )
 
